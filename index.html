@@ -1,0 +1,142 @@
+<!-- is this working or not
+    File: index.html
+    Patryk Piwowarczyk, patryk_piwowarczyk@student.uml.edu
+    Completed on 9/12/2022
+    This assignment is to create my first Web page. This Web page is about the Women's No.1
+    tennis player, Iga Świątek. I chose her because she is a young athlete that is excelling
+    in the sport and she represents my country. This page is dedicated to present an introduction
+    to Iga, her accomplishments, and provide further details about her linked.
+
+    Copyright (c) 2022 by Patryk. All rights reserved. May be freely copied or
+    excerpted for educational purposes with credit to the author.
+
+    Sources for code (sources for content are sited at the bottom of the Web page): 
+    1. https://www.w3schools.com/  (primary use, many different subsections)
+        a. example: https://www.w3schools.com/css/css_howto.asp
+    2. https://www.computerhope.com/issues/ch000069.htm
+    3. https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Patryk's First Web Page</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>“You did not wake up to be ordinary”. - Iga Świątek</h1>
+    <!--Above was the firsr header as an introductory quote (to show Iga's personality). Below is the first paragraph introducing Iga. -->
+    <div class="a">
+        Iga is a professional Polish tennis player that is ranked No. 1 in women's singles tennis.
+        She has set many great achievements for not only herself, but for the world of tennis and
+        her country, Poland. At the age of 21, she has won 3 Grand slams, became the first player
+        representing Poland to win a major singles title, and she won the Polish Sports Personality
+        of the Year. (wiki) Her main sponsors are PZU, Technifibre, Asics, Rolex, and Xiaomi.
+    </div>
+    <!--This code is separated to demonstrate a new paragraph which links the viewer to Iga's Web page. -->
+    <div class="a">
+        <p>To learn more about Iga, you can find her website <a href="https://igaswiatek.pl/en/homepage/" target="_blank">here</a></p>
+    </div>
+    <!--Header #2-->
+    <h1>Awards and Recognitions</h1>
+    <!--The second major paragraph highlighting Iga's early (junior) career and feats. -->
+    <div class="a">
+        Throughout her life, Iga Świątek has excelled in tennis due to her competitive nature and
+        the support of those around her. As a junior, she reached a career-high rank of #5. As a 
+        junior, Iga won seven ITF Circuits (Undefeated), Canadian Open Junior Championships, Traralgon Junior 
+        International, junior Grand Slam (doubles), junior Gran Slam (singles), and the 2018 Summer
+        Youth Olympics (doubles with Kaja Juvan). She also reached the quarterfinals and semifinals
+        multiple times in other competitions but lost, including in the 2016 French Open (singles and
+        doubles), Australian Open (doubles, 2017), Trofeo Bonfiglio, and again in 2017, the French Open, 
+        where she then had to sit out for seven months with no competitions due to an ankle surgery. (wikipedia) 
+    </div> <br>
+    <!--The third major paragraph highlighting Iga's adult career and the achievements she acquired. -->
+    <div class="a">
+        In 2019, Iga Świątek competed in various competitions, without any major wins, but making her first
+        appearance in a WTA final and placing her in the top 50 ranked women's singles. However, in 2020,
+        she won her first Major at the French Open with countless many achievements and upsets. Some of these
+        achievements include; Iga becoming the first Polish player to win a Grand Slam singles title and lowest-ranked 
+        player to win the French Open in the history of WTA rankings. (wikipedia) In 2021, Iga won her first
+        WTA 1000 title, reached the French Open doubles final (loss), and became #4 for women's singles.
+        In 2022, she won multiple more consecutive WTA 1000 championship title, the Sunshine Double, French Open 2022, 
+        and her most recent win and Major title: the 2022 US Open. With this new year and all her victories, she has
+        became the World No. 1, achieved countless milestones and records in tennis, and became the first
+        Polish woman to win the US Open!
+    </div>
+    <!-- Another source (wikipedia) for extra information in case the viewer is more curious about Iga-->
+    <div class="a">
+        <p>To learn more about Iga's life and her countless achievements, you can find it Wikipedia by clicking <a href="https://en.wikipedia.org/wiki/Iga_%C5%9Awi%C4%85tek" target="_blank">here</a></p>
+    </div> <br>
+    <!-- The code below represents the table on the webpage. -->
+    <table class="center">
+        <caption>Grand Slam Tournament Finals Appearances</caption>
+        <caption class="s2">Only includes the Australian Open, French Open, US Open and Wimbledon.</caption>
+        <tr class="topRow">
+            <th>Outcome</th>
+            <th>Year</th>
+            <th>Tournament</th>
+            <th>Mode</th>
+        </tr>
+        <tr> <!--row 2-->
+            <td>Win</td>
+            <td>2020</td>
+            <td>French Open</td>
+            <td>Singles</td>
+        </tr>
+        <tr> <!--row 3-->
+            <td>Loss</td>
+            <td>2021</td>
+            <td>French Open</td>
+            <td>Doubles</td>
+        </tr>
+        <tr> <!--row 4-->
+            <td>Win</td>
+            <td>2022</td>
+            <td>French Open</td>
+            <td>Singles</td>
+        </tr>
+        <tr> <!--row 5-->
+            <td>Win</td>
+            <td>2020</td>
+            <td>US Open</td>
+            <td>Singles</td>
+        </tr>
+    </table> <br><br><br>
+    <!--A smaller heading designed for introducing the resources used for this assignment. -->
+    <h2><b>References</b></h2>
+    <div class="b"> 
+        <p><a href="https://en.wikipedia.org/wiki/Iga_%C5%9Awi%C4%85tek" target="_blank">https://en.wikipedia.org/wiki/Iga_%C5%9Awi%C4%85tek</a></p>
+        <p><a href="https://igaswiatek.pl/en/homepage/" target="_blank">https://igaswiatek.pl/en/homepage/</a></p>
+    </div>
+    <!--A design to stack the 3 images used in the Web page. -->
+    <div class="column">
+        <div class="row">
+            <img class=scaled src="images/IgaSwiatek.jpg" alt="Iga Swiatek WTA">
+            <figcaption>
+                Iga Świątek posing with her WTA trophy.
+            </figcaption>
+        </div>
+        <div class="row">
+            <img class=scaled src="images/IgaSwiatekTrophy.jpg" alt="Iga Swiatek US Open">
+            <figcaption>
+                Iga Świątek with her most recent win, the US Open 2022.
+            </figcaption>
+        </div>
+        <div class="row">
+            <img class=scaled src="images/IgaZTomasz.jpg" alt="Iga Swiatek z Tomkem">
+            <figcaption>
+                Iga Świątek on the left and her current coach, Tomasz Wiktorowski, on the right.
+            </figcaption>
+        </div>
+    </div>
+    <!--Source code for the w3c badge. -->
+    <p>
+        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+                alt="Valid CSS!" />
+            </a>
+        </p>
+  </body>
+</html>
