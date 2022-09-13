@@ -27,10 +27,6 @@ figure {
     float: right;
     width: 30%;
     margin-top: -950px;
-    /*margin: 0;
-    position: relative;
-    margin-top: auto;*/
-    /*padding: 5px;*/
     padding-top: 20px;
     padding-bottom: 20px;
     content: "";
@@ -39,12 +35,9 @@ figure {
 .rows {
     column-count: 1;
     column-gap: 0px;
-    /*page-break-inside: avoid;
-    break-inside: avoid-column;
-    justify-content: space-between;*/
 }
 figcaption {
-    text-align: center;
+    text-align: left;
     clear: right;
     display: block;
 }
@@ -71,13 +64,13 @@ img.scaled {
     background-color: rgb(245, 42, 42);
     font-size: 18px;
 }
-/* Secondary caption modifications */
+/* Secondary caption modifications 
 .s2 {
     caption-side: bottom;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: normal;
     font-size: 13px;
-}
+}*/
 /* Help to align the images in their proper location 
 .column {
     float: right;
