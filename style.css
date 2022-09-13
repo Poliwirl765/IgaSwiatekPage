@@ -26,8 +26,8 @@ div.b {
 figure {
     float: right;
     width: 30%;
-    /*margin-top: -950px;*/
-    margin-top: auto;
+    margin-top: -950px;
+    /*margin-top: auto;*/
     /*padding: 5px;*/
     padding-top: 20px;
     padding-bottom: 20px;
@@ -74,13 +74,13 @@ table > caption {
     margin-left: 17%;
 }
 /* Help the images take up all the width the column was created to have */
-/*img.scaled {
+img.scaled {
     width: 100%;
-}*/
-.skills > img {
+}
+/*.skills > img {
     display: block;
     width: 30%;
-}
+}*/
 /* Designed to make the categories of the table to stand out. */
 .topRow {
     background-color: rgb(245, 42, 42);
