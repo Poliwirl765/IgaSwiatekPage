@@ -32,6 +32,7 @@ figure {
 }
 figcaption {
     text-align: center;
+    display: block;
 }
 /* Help to align the images in their proper location 
 .column {
