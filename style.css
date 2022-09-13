@@ -21,18 +21,14 @@ div.b {
     width: 64%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /*font-size: 13px;*/
-    font-size: 20px; /*just for testing purposes*/
-}
-.first {
-    top: 10px;
-    right: 10px;
+    font-size: 13px; /*just for testing purposes*/
 }
 figure {
     float: right;
     width: 30%;
     margin-top: -950px;
-    margin: 0;
-    /*position: relative;
+    /*margin: 0;
+    position: relative;
     margin-top: auto;*/
     /*padding: 5px;*/
     padding-top: 20px;
