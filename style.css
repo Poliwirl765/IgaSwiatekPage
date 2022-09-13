@@ -42,7 +42,7 @@ figure {
 figcaption {
     text-align: center;
     clear: right;
-    display: flex;
+    display: block;
 }
 @media (max-width: 100px) {
     .skills {
@@ -76,7 +76,7 @@ table > caption {
     width: 100%;
 }*/
 .skills > img {
-    display: flex;
+    display: block;
     width: 30%;
 }
 /* Designed to make the categories of the table to stand out. */
