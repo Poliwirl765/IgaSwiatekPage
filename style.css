@@ -22,20 +22,31 @@ div.b {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 13px;
 }
-/* Help to align the images in their proper location */
+figure {
+    float: right;
+    width: 34%;
+    margin-top: -1000px;
+    padding: 5px;
+    content: "";
+    clear: both;
+}
+figcaption {
+    text-align: center;
+}
+/* Help to align the images in their proper location 
 .column {
     float: right;
     width: 34%;
     margin-top: -1000px;
     text-align: center;
     padding: 5px;
-}
-/* A supplementary addition to column to help guide the images into the right position */
+} */
+/* A supplementary addition to column to help guide the images into the right position 
 .row::after {
     content: "";
     clear: both;
     padding: 5px;
-}
+} */
 table, th, td {
     border: 3px solid black;
 }
