@@ -27,6 +27,7 @@ figure {
     width: 30%;
     margin-top: -950px;
     /*padding: 5px;*/
+    padding-bottom: 10px;
     content: "";
     clear: right;
 }
