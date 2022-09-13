@@ -24,11 +24,11 @@ div.b {
 }
 figure {
     float: right;
-    width: 34%;
+    width: 27%;
     margin-top: -950px;
     /*padding: 5px;*/
     content: "";
-    clear: both;
+    clear: right;
 }
 figcaption {
     text-align: center;
