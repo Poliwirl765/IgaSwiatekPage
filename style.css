@@ -30,6 +30,14 @@ figure {
     content: "";
     clear: right;
 }
+figure.c {
+    float: right;
+    width: 30%;
+    /*margin-top: -950px;*/
+    /*padding: 5px;*/
+    content: "";
+    clear: right;
+}
 figcaption {
     text-align: center;
     clear: right;
