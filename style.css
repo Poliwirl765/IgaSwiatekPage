@@ -27,6 +27,7 @@ figure {
     width: 30%;
     margin-top: -950px;
     /*padding: 5px;*/
+    padding-top: 20px;
     padding-bottom: 20px;
     content: "";
     clear: right;
@@ -42,6 +43,11 @@ figcaption {
     text-align: center;
     clear: right;
     display: flex;
+}
+@media (max-width: 768px) {
+    .skills {
+        column-count: 3;
+    }
 }
 /*.container img {
     max-width: 100%;
@@ -66,7 +72,11 @@ table > caption {
     margin-left: 17%;
 }
 /* Help the images take up all the width the column was created to have */
-img.scaled {
+/*img.scaled {
+    width: 100%;
+}*/
+.skills > img {
+    display: flex;
     width: 100%;
 }
 /* Designed to make the categories of the table to stand out. */
