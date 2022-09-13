@@ -44,7 +44,7 @@ figcaption {
     clear: right;
     display: flex;
 }
-@media (max-width: 768px) {
+@media (max-width: 100px) {
     .skills {
         column-count: 3;
     }
@@ -77,7 +77,7 @@ table > caption {
 }*/
 .skills > img {
     display: flex;
-    width: 100%;
+    width: 30%;
 }
 /* Designed to make the categories of the table to stand out. */
 .topRow {
