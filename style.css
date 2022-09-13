@@ -26,28 +26,23 @@ figure {
     float: right;
     width: 30%;
     margin-top: -950px;
-    /*padding: 5px;*/
+    /*padding: 5px;
     content: "";
-    clear: right;
+    clear: right;*/
 }
 figcaption {
     text-align: center;
+    clear: right;
     display: block;
 }
-/* Help to align the images in their proper location 
-.column {
-    float: right;
-    width: 34%;
-    margin-top: -1000px;
-    text-align: center;
-    padding: 5px;
-} */
-/* A supplementary addition to column to help guide the images into the right position 
-.row::after {
+.container img {
+    max-width: 100%;
+}
+.clearfix::after {
     content: "";
+    display: table;
     clear: both;
-    padding: 5px;
-} */
+}
 table, th, td {
     border: 3px solid black;
 }
@@ -78,3 +73,17 @@ img.scaled {
     font-weight: normal;
     font-size: 13px;
 }
+/* Help to align the images in their proper location 
+.column {
+    float: right;
+    width: 34%;
+    margin-top: -1000px;
+    text-align: center;
+    padding: 5px;
+} */
+/* A supplementary addition to column to help guide the images into the right position 
+.row::after {
+    content: "";
+    clear: both;
+    padding: 5px;
+} */
