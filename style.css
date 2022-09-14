@@ -17,11 +17,6 @@ div.a {
     width: 64%;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-div.b {
-    width: 64%;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 13px;
-}
 /*Figure and .rows are used for the styling of location of the images (putting it in one column on the right side with space between)*/
 figure {
     float: right;
